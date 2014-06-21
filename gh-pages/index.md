@@ -1,0 +1,42 @@
+---
+title       : My First Project
+subtitle    : (using Slidify)
+author      : A budding data scientist
+job         : Works freelance
+logo        : nikku2.png
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : [mathjax]     # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Read-And-Delete
+
+1. Edit YAML front matter
+2. Write using R Markdown
+3. Use an empty line followed by three dashes to separate slides!
+
+### Let us do some maths:
+
+$$roots = -b \pm \frac{\sqrt{b^2-4ac}}{2a}$$
+
+--- .class #id 
+
+## Slide 2
+
+1. Slide 2 is also devoid of substance
+2. But I will find something to fill it with
+
+### Bulleted List
+
+* Why is this called a bullet ?
+* because it can kill !
+
+---
+## Plotting graphs
+![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1.png) 
+
+
+
